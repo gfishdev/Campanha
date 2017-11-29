@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: nsGuilherme
+  datasource:
+    url: jdbc:mysql://localhost:3306/NS_GUILHERME
+    username: root
+    password: lira10
+    tomcat:
+      test-on-borrow: true
+      validation-query: SELECT 1
+  jpa:
+    hibernate.ddl-auto: validate
+    show-sql: true
+    properties.hibernate.format_sql: true
